@@ -26,71 +26,71 @@ public class UIController : MonoBehaviour {
         instance = this;
     }
 
-    public void Clicked_3x3 () 
-    {
-        MainController.instance.SpawnBuilding("3x3");
-        DisableScrollUI();
-    }
+    //public void Clicked_3x3 () 
+    //{
+    //    MainController.instance.SpawnBuilding("3x3");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_3x5() 
-    {
-        MainController.instance.SpawnBuilding("3x5");
-        DisableScrollUI();
-    }
+    //public void Clicked_3x5() 
+    //{
+    //    MainController.instance.SpawnBuilding("3x5");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_5x5()
-    {
-        MainController.instance.SpawnBuilding("5x5");
-        DisableScrollUI();
-    }
+    //public void Clicked_5x5()
+    //{
+    //    MainController.instance.SpawnBuilding("5x5");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_7x7()
-    {
-        MainController.instance.SpawnBuilding("7x7");
-        DisableScrollUI();
-    }
+    //public void Clicked_7x7()
+    //{
+    //    MainController.instance.SpawnBuilding("7x7");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_7x10()
-    {
-        MainController.instance.SpawnBuilding("7x10");
-        DisableScrollUI();
-    }
+    //public void Clicked_7x10()
+    //{
+    //    MainController.instance.SpawnBuilding("7x10");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_10x5()
-    {
-        MainController.instance.SpawnBuilding("10x5");
-        DisableScrollUI();
-    }
+    //public void Clicked_10x5()
+    //{
+    //    MainController.instance.SpawnBuilding("10x5");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_10x10()
-    {
-        MainController.instance.SpawnBuilding("10x10");
-        DisableScrollUI();
-    }
+    //public void Clicked_10x10()
+    //{
+    //    MainController.instance.SpawnBuilding("10x10");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_10x15()
-    {
-        MainController.instance.SpawnBuilding("10x15");
-        DisableScrollUI();
-    }
+    //public void Clicked_10x15()
+    //{
+    //    MainController.instance.SpawnBuilding("10x15");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_12x13()
-    {
-        MainController.instance.SpawnBuilding("12x13");
-        DisableScrollUI();
-    }
+    //public void Clicked_12x13()
+    //{
+    //    MainController.instance.SpawnBuilding("12x13");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_15x7()
-    {
-        MainController.instance.SpawnBuilding("15x7");
-        DisableScrollUI();
-    }
+    //public void Clicked_15x7()
+    //{
+    //    MainController.instance.SpawnBuilding("15x7");
+    //    DisableScrollUI();
+    //}
 
-    public void Clicked_15x15()
-    {
-        MainController.instance.SpawnBuilding("15x15");
-        DisableScrollUI();
-    }
+    //public void Clicked_15x15()
+    //{
+    //    MainController.instance.SpawnBuilding("15x15");
+    //    DisableScrollUI();
+    //}
 
     public void EnableScrollUI()
     {

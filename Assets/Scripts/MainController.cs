@@ -34,7 +34,9 @@ public class MainController : MonoBehaviour {
         {
             MovementUpdate();
         }
+#if UNITY_ANDROID || UNITY_IOS
 
+#else
         if (Input.GetMouseButtonDown(0) && !isPlaced)
         {
             RaycastHit hitInfo = new RaycastHit();
@@ -52,6 +54,7 @@ public class MainController : MonoBehaviour {
                 }
             }
         }
+#endif
     }
 
     /// <summary>
@@ -114,7 +117,7 @@ public class MainController : MonoBehaviour {
             }
             //Debug.Log("POS:" +  movingGO.transform.position);
             building.transform.position = movingGO.transform.position;
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonUp(0))
             {
                 isSpawned = false;
                 if (isWrongplace || isOverlap)
