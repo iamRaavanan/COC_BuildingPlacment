@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class BtnPointerDown : MonoBehaviour, IPointerDownHandler
+namespace Raavanan
 {
-
-    public void OnPointerDown(PointerEventData eventData)
+    public class BtnPointerDown : MonoBehaviour, IPointerDownHandler
     {
-        MainController.instance.SpawnBuilding(this.gameObject.name);
-        UIController.instance.DisableScrollUI();
+
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            MainController.instance.SpawnBuilding(this.gameObject.name);
+            UIController.instance.DisableScrollUI();
+        }
     }
 }
